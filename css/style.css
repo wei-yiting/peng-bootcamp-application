@@ -2,6 +2,7 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
     line-height: 180%;
     font-size: 17px;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -41,22 +42,36 @@ section{
 h2{
     font-weight: 600;
     letter-spacing: 0.1em;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5em;
     color: rgb(74, 74, 74);
 }
 
 h3{
+    display: inline-block;
     font-weight: 500;
-    text-decoration: underline;
     font-size: 1.2rem;
-    margin: 1.5em 0 0.5em;
-    color: rgb(92, 126, 172)
+    margin: 1em 0 0.5em;
+    color: rgb(92, 126, 172);
+    border-bottom: 1px solid lightsteelblue;
+
 }
 
-p{
+p,
+ul li{
     margin-top: 0;
     font-weight: 400;
     color: rgb(104, 104, 104);
+}
+
+ul li{
+    list-style-type: circle;
+}
+
+
+.big{
+    display: block;
+    font-size: 1.3rem;
+    border-bottom: none;
 }
 
 .bigger{
@@ -82,17 +97,23 @@ p{
     justify-content: center;
 }
 
+.final{
+    margin-top: 3rem;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+
 #last{
     margin-top:3rem;
 }
 
 #emotion{
-    width: 70%;
+    width: 65%;
     margin: 1rem auto 3rem;
 }
 
 #coding{
-    width: 80%;
+    width: 70%;
     margin: 3rem auto;
 }
 
