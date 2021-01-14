@@ -30,7 +30,8 @@ header span{
 /* main */
 main{
     max-width: 880px;
-    margin: 2rem auto;
+    /* padding-bottom: 4rem; */
+    margin: 2rem auto 4rem;
 }
 
 section{
@@ -52,21 +53,27 @@ h3{
     font-size: 1.2rem;
     margin: 1em 0 0.5em;
     color: rgb(92, 126, 172);
-    border-bottom: 1px solid lightsteelblue;
+    border-bottom: 1px solid rgba(176, 196, 222, 0.6);
 
 }
 
 p,
+a,
 ul li{
     margin-top: 0;
     font-weight: 400;
-    color: rgb(104, 104, 104);
+    color: rgb(113, 113, 113);
 }
 
-ul li{
-    list-style-type: circle;
+a{ font-style: italic;}
+
+ul li{ list-style-type: circle;
 }
 
+span{
+    color:rgb(55, 55, 55);
+    font-weight: 500;
+}
 
 .big{
     display: block;
@@ -76,6 +83,10 @@ ul li{
 
 .bigger{
     font-size: 1.1rem;
+}
+
+.large{
+    font-size: 1.2rem;
 }
 
 .sep{
@@ -98,7 +109,7 @@ ul li{
 }
 
 .final{
-    margin-top: 3rem;
+    margin-top: 5rem;
     letter-spacing: 0.1em;
     font-weight: 600;
 }
@@ -117,4 +128,18 @@ ul li{
     margin: 3rem auto;
 }
 
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+footer span{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(205, 205, 205);
+    padding: 1rem 15rem;
+    border-top: 1px solid lightsteelblue;
+    /* color:white; */
+}
 
