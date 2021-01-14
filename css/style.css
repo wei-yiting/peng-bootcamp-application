@@ -1,0 +1,87 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 180%;
+    font-size: 18px;
+}
+
+/* header */
+header{
+    margin: 2rem 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid lightsteelblue;
+}
+
+h1{
+    display: inline;
+    padding-right:1rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+header span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* main */
+main{
+    max-width: 880px;
+    margin: 5rem auto;
+}
+
+section{
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    width: 100%;
+}
+
+h2{
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    margin: 1.5em 0 0.5em;
+}
+
+p{
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.sep{
+    width:30%;
+    height:0;
+    border-bottom: 3px solid lightsteelblue;
+    margin: 0 auto;
+}
+.category{
+    margin: 3rem 0 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#last{
+    margin-top:3rem;
+}
+
+#emotion{
+    width: 75%;
+    margin: 1rem auto 3rem;
+}
+
+#coding{
+    width: 80%;
+    margin: 3rem auto;
+}
+
+
