@@ -1,0 +1,46 @@
+/* tablet */
+@media only screen and (max-width:980px){
+    
+    header{ margin: 2rem 7.5vw 0;}
+
+    main{
+        width:75%;
+        margin: 0 auto;
+    }
+
+    .sep{ width:45%;}
+    
+    #emotion,
+    #coding{ width: 85%;}
+
+    ul li{ margin-bottom: 0.3em;}
+
+}
+
+/* mobile */
+@media only screen and (max-width:480px){
+   
+    header{
+        width:85%;
+        margin: 2rem auto 0.5rem;
+    }
+
+    h1{ display: block;}
+    
+    main{ width:85%;}
+
+    section{
+        margin: 0 auto;
+        padding: 2rem 0;
+    }
+
+    #emotion,
+    #coding{width: 100%;}
+
+    ul { padding-inline-start: 20px; }
+
+    footer{width:75%;}
+
+    footer span{line-height: 140%;}
+    
+}

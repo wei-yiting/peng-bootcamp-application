@@ -30,7 +30,6 @@ header span{
 /* main */
 main{
     max-width: 880px;
-    /* padding-bottom: 4rem; */
     margin: 2rem auto 4rem;
 }
 
@@ -116,11 +115,13 @@ span{
 
 #emotion{
     width: 65%;
+    height: auto;
     margin: 1rem auto 3rem;
 }
 
 #coding{
     width: 70%;
+    height: auto;
     margin: 3rem auto;
 }
 
@@ -129,13 +130,15 @@ footer{
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
+    width: 55%;
+    margin: 0 auto;
+    border-top: 1px solid lightsteelblue;
+    margin-top:5rem;
 }
 footer span{
     font-size: 0.8rem;
     font-weight: 300;
+    text-align: center;
     color: rgb(205, 205, 205);
-    padding: 1rem 12rem;
-    border-top: 1px solid lightsteelblue;
-    /* color:white; */
+    padding: 1rem 2rem;
 }
-
