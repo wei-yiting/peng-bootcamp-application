@@ -35,7 +35,10 @@
     }
 
     #emotion,
-    #coding{ width:100%;}
+    #coding{ 
+        width:100%;
+        height:auto;
+    }
 
     ul { padding-inline-start:20px; }
 
