@@ -11,10 +11,7 @@
     .sep{ width:45%;}
 
     #emotion,
-    #coding{ 
-        width:85%;
-        height:auto;
-    }
+    #coding{ width:85%;}
 
     ul li{ margin-bottom: 0.3em;}
 
@@ -38,10 +35,7 @@
     }
 
     #emotion,
-    #coding{
-        width:100%;
-        height:auto;
-    }
+    #coding{ width:100%;}
 
     ul { padding-inline-start:20px; }
 

@@ -115,11 +115,13 @@ span{
 
 #emotion{
     width: 65%;
+    height: auto;
     margin: 1rem auto 3rem;
 }
 
 #coding{
     width: 70%;
+    height: auto;
     margin: 3rem auto;
 }
 
