@@ -26,6 +26,8 @@
     }
 
     h1{ display: block;}
+
+    h2{line-height: 150%;}
     
     main{ width:90%;}
 
