@@ -15,6 +15,7 @@
 
     ul li{ margin-bottom: 0.3em;}
 
+    footer p{width:35%;}
 }
 
 /* mobile */
@@ -51,5 +52,8 @@
     ul { padding-inline-start:20px; }
 
     .footersep{width:75%;}
+
+    footer p{width:60%;}
+
     
 }
